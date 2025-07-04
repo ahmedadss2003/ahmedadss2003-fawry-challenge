@@ -230,7 +230,7 @@ class PaymentService {
         System.out.printf("Balance left     %.0f\n", client.getFunds());
 
         if (!skippedItems.isEmpty()) {
-            System.out.println("\n⚠️ Skipped items:");
+            System.out.println("\n Skipped items:");
             for (String msg : skippedItems) {
                 System.out.println("- " + msg);
             }
